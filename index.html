@@ -148,7 +148,7 @@ html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Helvetic
     <div id="head">
       <h1>广州 100 个「小而美」文旅打卡点</h1>
       <div class="sub">来源：爱游广州（广州市文化广电旅游局）城市漫游图鉴<br>高德 POI 校准 · 2026-11-04</div>
-      <div id="stats"><span>共 <b id="n">100</b> 个打卡点 · 覆盖 11 个城区</span><span class="btns"><button id="toggleMetro" class="allbtn on">地铁 开</button><button id="toggleAll" class="allbtn">清空</button></span></div>
+      <div id="stats"><span>共 <b id="n">100</b> 个打卡点 · 覆盖 11 个城区</span><span class="btns"><button id="toggleMetro" class="allbtn">地铁 关</button><button id="toggleAll" class="allbtn">清空</button></span></div>
       <div class="tip">点区名＝只看该区并放大 · 点数字气泡＝展开 · 点条目＝定位</div>
     </div>
     <div id="legend"><label class="ck"><input type="checkbox" checked data-d="越秀"><i style="background:#C0392B"></i><span class="dl" data-d="越秀" title="只看越秀">越秀</span><b>7</b></label><label class="ck"><input type="checkbox" checked data-d="海珠"><i style="background:#1FA37C"></i><span class="dl" data-d="海珠" title="只看海珠">海珠</span><b>10</b></label><label class="ck"><input type="checkbox" checked data-d="荔湾"><i style="background:#8E44AD"></i><span class="dl" data-d="荔湾" title="只看荔湾">荔湾</span><b>10</b></label><label class="ck"><input type="checkbox" checked data-d="天河"><i style="background:#1B3A57"></i><span class="dl" data-d="天河" title="只看天河">天河</span><b>9</b></label><label class="ck"><input type="checkbox" checked data-d="白云"><i style="background:#6B7C8C"></i><span class="dl" data-d="白云" title="只看白云">白云</span><b>9</b></label><label class="ck"><input type="checkbox" checked data-d="黄埔"><i style="background:#E67E22"></i><span class="dl" data-d="黄埔" title="只看黄埔">黄埔</span><b>10</b></label><label class="ck"><input type="checkbox" checked data-d="花都"><i style="background:#E84393"></i><span class="dl" data-d="花都" title="只看花都">花都</span><b>9</b></label><label class="ck"><input type="checkbox" checked data-d="番禺"><i style="background:#2E86DE"></i><span class="dl" data-d="番禺" title="只看番禺">番禺</span><b>6</b></label><label class="ck"><input type="checkbox" checked data-d="南沙"><i style="background:#00A8B5"></i><span class="dl" data-d="南沙" title="只看南沙">南沙</span><b>10</b></label><label class="ck"><input type="checkbox" checked data-d="从化"><i style="background:#2D9E4F"></i><span class="dl" data-d="从化" title="只看从化">从化</span><b>9</b></label><label class="ck"><input type="checkbox" checked data-d="增城"><i style="background:#A67C00"></i><span class="dl" data-d="增城" title="只看增城">增城</span><b>11</b></label></div>
@@ -192,16 +192,23 @@ function openInfo(p, pos) {
 }
 
 function dotHTML(p){
-  return '<div style="width:12px;height:12px;border-radius:50%;background:' + p.c + ';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45)"></div>';
+  /* 白粗边 + 深色投影：无论底图深浅都能立刻跳出来 */
+  return '<div style="width:14px;height:14px;border-radius:50%;background:' + p.c +
+         ';border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.5),0 0 0 1px rgba(0,0,0,.10)"></div>';
 }
 function bubbleHTML(n){
-  var size = n < 10 ? 28 : (n < 30 ? 34 : 40);
-  return '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:rgba(27,58,87,.92);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.35)">' + n + '</div>';
+  var size = n < 10 ? 32 : (n < 30 ? 40 : 48);
+  var fs   = n < 10 ? 14 : (n < 30 ? 16 : 18);
+  return '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;' +
+         'background:radial-gradient(circle at 32% 28%, #2f6690 0%, #1b3a57 72%);color:#fff;' +
+         'display:flex;align-items:center;justify-content:center;font-size:' + fs + 'px;' +
+         'font-weight:700;letter-spacing:-.5px;border:3px solid #fff;' +
+         'box-shadow:0 3px 10px rgba(0,0,0,.45),0 0 0 1px rgba(0,0,0,.12)">' + n + '</div>';
 }
 
 
 /* ================= 地铁图层 ================= */
-var metroOn = true;
+var metroOn = false;   /* 默认关闭：先让打卡点自己说话 */
 var metroLoaded = false;
 var metroLineO = [], metroStaO = [], metroLblO = [];
 var metroMeta = [];
@@ -218,8 +225,8 @@ function syncMetro(){
   showList(metroLineO, metroOn);
   var z = map.getZoom();
   /* 低 zoom 线细而淡，避免中心区糊成一团；放大后加重，便于分辨线路 */
-  var w = z < 10 ? 2.2 : (z < 12 ? 2.8 : (z < 14 ? 3.6 : 4.4));
-  var op = z < 10 ? 0.58 : (z < 12 ? 0.70 : 0.85);
+  var w = z < 10 ? 1.8 : (z < 12 ? 2.2 : (z < 14 ? 2.6 : 3.2));
+  var op = z < 10 ? 0.42 : (z < 12 ? 0.52 : 0.66);
   for (var i = 0; i < metroLineO.length; i++) {
     metroLineO[i].setOptions({strokeWeight: w, strokeOpacity: op});
   }
@@ -238,8 +245,8 @@ function buildMetro(d){
   });
   (d.stations || []).forEach(function(S){
     metroStaO.push(new AMap.CircleMarker({
-      center: S.pts, radius: 3.2, strokeColor: '#fff', strokeWeight: 1.4,
-      fillColor: '#3b3b3b', fillOpacity: 0.9, zIndex: 22, bubble: false
+      center: S.pts, radius: 2.8, strokeColor: 'rgba(255,255,255,.9)', strokeWeight: 1.2,
+      fillColor: '#5a5a5a', fillOpacity: 0.75, zIndex: 22, bubble: false
     }));
     metroLblO.push(new AMap.Text({
       text: S.name, position: S.pts, zIndex: 23, bubble: false,
@@ -296,7 +303,7 @@ function doPaint(){
       var m = new AMap.Marker({
         position: [lng/arr.length, lat/arr.length],
         content: bubbleHTML(arr.length),
-        offset: new AMap.Pixel(-(arr.length<10?14:(arr.length<30?17:20)), -(arr.length<10?14:(arr.length<30?17:20))),
+        offset: new AMap.Pixel(-(arr.length<10?16:(arr.length<30?20:24)), -(arr.length<10?16:(arr.length<30?20:24))),
         zIndex: 200
       });
       m.on('click', function(){
@@ -311,7 +318,7 @@ function doPaint(){
 }
 function addDot(p, z){
   var m = new AMap.Marker({
-    position: [p.lng, p.lat], content: dotHTML(p), offset: new AMap.Pixel(-7,-7),
+    position: [p.lng, p.lat], content: dotHTML(p), offset: new AMap.Pixel(-10,-10),
     title: p.name, zIndex: z || 100
   });
   m.on('click', function(){
