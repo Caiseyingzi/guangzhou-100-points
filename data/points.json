@@ -12,7 +12,19 @@
    "ok": true,
    "photo": "d01-01.jpg",
    "geo_district": "越秀区",
-   "geo_township": "北京街道"
+   "geo_township": "北京街道",
+   "kind": "matched",
+   "alts": [
+    {
+     "poi_name": "MINISO LAND(正佳广场店)",
+     "address": "天河路274号正佳商场北面",
+     "district": "天河",
+     "lng": 113.326873,
+     "lat": 23.132961
+    }
+   ],
+   "id": 1,
+   "note": "定为北京路店（北京路249号），即清单所称华南首店"
   },
   {
    "district": "越秀",
@@ -26,7 +38,9 @@
    "ok": true,
    "photo": "d01-02.jpg",
    "geo_district": "越秀区",
-   "geo_township": "北京街道"
+   "geo_township": "北京街道",
+   "kind": "matched",
+   "id": 2
   },
   {
    "district": "越秀",
@@ -40,7 +54,9 @@
    "ok": true,
    "photo": "d01-03.jpg",
    "geo_district": "越秀区",
-   "geo_township": "人民街道"
+   "geo_township": "人民街道",
+   "kind": "matched",
+   "id": 3
   },
   {
    "district": "越秀",
@@ -54,7 +70,9 @@
    "ok": true,
    "photo": "d01-04.jpg",
    "geo_district": "越秀区",
-   "geo_township": "北京街道"
+   "geo_township": "北京街道",
+   "kind": "matched",
+   "id": 4
   },
   {
    "district": "越秀",
@@ -68,7 +86,9 @@
    "ok": true,
    "photo": "d01-05.jpg",
    "geo_district": "越秀区",
-   "geo_township": "珠光街道"
+   "geo_township": "珠光街道",
+   "kind": "matched",
+   "id": 5
   },
   {
    "district": "越秀",
@@ -82,7 +102,9 @@
    "ok": true,
    "photo": "d01-06.jpg",
    "geo_district": "越秀区",
-   "geo_township": "白云街道"
+   "geo_township": "白云街道",
+   "kind": "matched",
+   "id": 6
   },
   {
    "district": "越秀",
@@ -96,7 +118,9 @@
    "ok": true,
    "photo": "d01-07.jpg",
    "geo_district": "越秀区",
-   "geo_township": "流花街道"
+   "geo_township": "流花街道",
+   "kind": "matched",
+   "id": 7
   },
   {
    "district": "海珠",
@@ -110,7 +134,9 @@
    "ok": true,
    "photo": "d02-01.jpg",
    "geo_district": "海珠区",
-   "geo_township": "赤岗街道"
+   "geo_township": "赤岗街道",
+   "kind": "matched",
+   "id": 8
   },
   {
    "district": "海珠",
@@ -124,7 +150,9 @@
    "ok": true,
    "photo": "d02-02.jpg",
    "geo_district": "海珠区",
-   "geo_township": "琶洲街道"
+   "geo_township": "琶洲街道",
+   "kind": "matched",
+   "id": 9
   },
   {
    "district": "海珠",
@@ -138,7 +166,9 @@
    "ok": true,
    "photo": "d02-03.jpg",
    "geo_district": "海珠区",
-   "geo_township": "赤岗街道"
+   "geo_township": "赤岗街道",
+   "kind": "matched",
+   "id": 10
   },
   {
    "district": "海珠",
@@ -152,7 +182,9 @@
    "ok": true,
    "photo": "d02-04.jpg",
    "geo_district": "海珠区",
-   "geo_township": "琶洲街道"
+   "geo_township": "琶洲街道",
+   "kind": "matched",
+   "id": 11
   },
   {
    "district": "海珠",
@@ -166,7 +198,9 @@
    "ok": true,
    "photo": "d02-05.jpg",
    "geo_district": "海珠区",
-   "geo_township": "琶洲街道"
+   "geo_township": "琶洲街道",
+   "kind": "matched",
+   "id": 12
   },
   {
    "district": "海珠",
@@ -180,7 +214,9 @@
    "ok": true,
    "photo": "d02-06.jpg",
    "geo_district": "海珠区",
-   "geo_township": "琶洲街道"
+   "geo_township": "琶洲街道",
+   "kind": "matched",
+   "id": 13
   },
   {
    "district": "海珠",
@@ -194,7 +230,9 @@
    "ok": true,
    "photo": "d02-07.jpg",
    "geo_district": "海珠区",
-   "geo_township": "赤岗街道"
+   "geo_township": "赤岗街道",
+   "kind": "matched",
+   "id": 14
   },
   {
    "district": "海珠",
@@ -208,7 +246,9 @@
    "ok": true,
    "photo": "d02-08.jpg",
    "geo_district": "海珠区",
-   "geo_township": "琶洲街道"
+   "geo_township": "琶洲街道",
+   "kind": "matched",
+   "id": 15
   },
   {
    "district": "海珠",
@@ -223,7 +263,8 @@
    "photo": "d02-09.jpg",
    "geo_district": "海珠区",
    "geo_township": "南华西街道",
-   "note": "高德标注该码头暂停营业，去之前先确认"
+   "kind": "matched",
+   "id": 16
   },
   {
    "district": "海珠",
@@ -237,7 +278,9 @@
    "ok": true,
    "photo": "d02-10.jpg",
    "geo_district": "海珠区",
-   "geo_township": "南洲街道"
+   "geo_township": "南洲街道",
+   "kind": "matched",
+   "id": 17
   },
   {
    "district": "荔湾",
@@ -251,7 +294,9 @@
    "ok": true,
    "photo": "d03-01.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "花地街道"
+   "geo_township": "花地街道",
+   "kind": "matched",
+   "id": 18
   },
   {
    "district": "荔湾",
@@ -265,7 +310,9 @@
    "ok": true,
    "photo": "d03-02.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "冲口街道"
+   "geo_township": "冲口街道",
+   "kind": "matched",
+   "id": 19
   },
   {
    "district": "荔湾",
@@ -279,7 +326,9 @@
    "ok": true,
    "photo": "d03-03.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "东沙街道"
+   "geo_township": "东沙街道",
+   "kind": "matched",
+   "id": 20
   },
   {
    "district": "荔湾",
@@ -293,7 +342,9 @@
    "ok": true,
    "photo": "d03-04.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "多宝街道"
+   "geo_township": "多宝街道",
+   "kind": "matched",
+   "id": 21
   },
   {
    "district": "荔湾",
@@ -307,7 +358,9 @@
    "ok": true,
    "photo": "d03-05.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "石围塘街道"
+   "geo_township": "石围塘街道",
+   "kind": "matched",
+   "id": 22
   },
   {
    "district": "荔湾",
@@ -321,7 +374,9 @@
    "ok": true,
    "photo": "d03-06.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "石围塘街道"
+   "geo_township": "石围塘街道",
+   "kind": "matched",
+   "id": 23
   },
   {
    "district": "荔湾",
@@ -333,10 +388,11 @@
    "address": "荔湾区多宝街道六二三路484号",
    "amap_type": "购物服务;综合市场;水产海鲜市场",
    "ok": true,
-   "note": "原图作「上埗」，高德实为「上堓」",
    "photo": "d03-07.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "多宝街道"
+   "geo_township": "多宝街道",
+   "kind": "matched",
+   "id": 24
   },
   {
    "district": "荔湾",
@@ -350,7 +406,9 @@
    "ok": true,
    "photo": "d03-08.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "多宝街道"
+   "geo_township": "多宝街道",
+   "kind": "matched",
+   "id": 25
   },
   {
    "district": "荔湾",
@@ -364,7 +422,9 @@
    "ok": true,
    "photo": "d03-09.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "西村街道"
+   "geo_township": "西村街道",
+   "kind": "matched",
+   "id": 26
   },
   {
    "district": "荔湾",
@@ -378,7 +438,9 @@
    "ok": true,
    "photo": "d03-10.jpg",
    "geo_district": "荔湾区",
-   "geo_township": "金花街道"
+   "geo_township": "金花街道",
+   "kind": "matched",
+   "id": 27
   },
   {
    "district": "天河",
@@ -392,7 +454,9 @@
    "ok": true,
    "photo": "d04-01.jpg",
    "geo_district": "天河区",
-   "geo_township": "天河南街道"
+   "geo_township": "天河南街道",
+   "kind": "matched",
+   "id": 28
   },
   {
    "district": "天河",
@@ -406,7 +470,9 @@
    "ok": true,
    "photo": "d04-02.jpg",
    "geo_district": "天河区",
-   "geo_township": "新塘街道"
+   "geo_township": "新塘街道",
+   "kind": "matched",
+   "id": 29
   },
   {
    "district": "天河",
@@ -420,7 +486,9 @@
    "ok": true,
    "photo": "d04-03.jpg",
    "geo_district": "天河区",
-   "geo_township": "天河南街道"
+   "geo_township": "天河南街道",
+   "kind": "matched",
+   "id": 30
   },
   {
    "district": "天河",
@@ -434,7 +502,9 @@
    "ok": true,
    "photo": "d04-04.jpg",
    "geo_district": "天河区",
-   "geo_township": "黄村街道"
+   "geo_township": "黄村街道",
+   "kind": "matched",
+   "id": 31
   },
   {
    "district": "天河",
@@ -448,7 +518,9 @@
    "ok": true,
    "photo": "d04-05.jpg",
    "geo_district": "天河区",
-   "geo_township": "猎德街道"
+   "geo_township": "猎德街道",
+   "kind": "matched",
+   "id": 32
   },
   {
    "district": "天河",
@@ -462,7 +534,9 @@
    "ok": true,
    "photo": "d04-06.jpg",
    "geo_district": "天河区",
-   "geo_township": "冼村街道"
+   "geo_township": "冼村街道",
+   "kind": "matched",
+   "id": 33
   },
   {
    "district": "天河",
@@ -476,7 +550,9 @@
    "ok": true,
    "photo": "d04-07.jpg",
    "geo_district": "天河区",
-   "geo_township": "长兴街道"
+   "geo_township": "长兴街道",
+   "kind": "matched",
+   "id": 34
   },
   {
    "district": "天河",
@@ -490,7 +566,9 @@
    "ok": true,
    "photo": "d04-08.jpg",
    "geo_district": "天河区",
-   "geo_township": "猎德街道"
+   "geo_township": "猎德街道",
+   "kind": "matched",
+   "id": 35
   },
   {
    "district": "天河",
@@ -504,7 +582,9 @@
    "ok": true,
    "photo": "d04-09.jpg",
    "geo_district": "天河区",
-   "geo_township": "龙洞街道"
+   "geo_township": "龙洞街道",
+   "kind": "matched",
+   "id": 36
   },
   {
    "district": "白云",
@@ -518,7 +598,9 @@
    "ok": true,
    "photo": "d05-01.jpg",
    "geo_district": "白云区",
-   "geo_township": "江高镇"
+   "geo_township": "江高镇",
+   "kind": "matched",
+   "id": 37
   },
   {
    "district": "白云",
@@ -532,7 +614,9 @@
    "ok": true,
    "photo": "d05-02.jpg",
    "geo_district": "白云区",
-   "geo_township": "龙归街道"
+   "geo_township": "龙归街道",
+   "kind": "matched",
+   "id": 38
   },
   {
    "district": "白云",
@@ -546,7 +630,9 @@
    "ok": true,
    "photo": "d05-03.jpg",
    "geo_district": "白云区",
-   "geo_township": "永平街道"
+   "geo_township": "永平街道",
+   "kind": "matched",
+   "id": 39
   },
   {
    "district": "白云",
@@ -560,7 +646,9 @@
    "ok": true,
    "photo": "d05-04.jpg",
    "geo_district": "白云区",
-   "geo_township": "白云湖街道"
+   "geo_township": "白云湖街道",
+   "kind": "matched",
+   "id": 40
   },
   {
    "district": "白云",
@@ -574,7 +662,9 @@
    "ok": true,
    "photo": "d05-05.jpg",
    "geo_district": "白云区",
-   "geo_township": "同和街道"
+   "geo_township": "同和街道",
+   "kind": "matched",
+   "id": 41
   },
   {
    "district": "白云",
@@ -588,7 +678,9 @@
    "ok": true,
    "photo": "d05-06.jpg",
    "geo_district": "白云区",
-   "geo_township": "太和镇"
+   "geo_township": "太和镇",
+   "kind": "matched",
+   "id": 42
   },
   {
    "district": "白云",
@@ -603,7 +695,46 @@
    "photo": "d05-07.jpg",
    "geo_district": "白云区",
    "geo_township": "永平街道",
-   "note": "原匹配到荔湾扬韬广场店；据原图照片（热带花园式户外店）核定为白云生态自然学校店"
+   "note": "据原图热带花园式户外场景，定为白云生态自然学校店",
+   "kind": "matched",
+   "alts": [
+    {
+     "poi_name": "MONKEY PAI COFFEE(设计之都店)",
+     "address": "鹤龙街腾云路53号首层1005铺",
+     "district": "白云",
+     "lng": 113.287399,
+     "lat": 23.220045
+    },
+    {
+     "poi_name": "MONKEY PAI COFFEE(红星店)",
+     "address": "石门街岑村东大街17号101",
+     "district": "白云",
+     "lng": 113.234025,
+     "lat": 23.223748
+    },
+    {
+     "poi_name": "MONKEY PAI COFFEE(五羊邨店)",
+     "address": "寺右南二街六巷11号108商铺",
+     "district": "越秀",
+     "lng": 113.312526,
+     "lat": 23.117104
+    },
+    {
+     "poi_name": "MONKEY PAI COFFEE(扬韬广场店)",
+     "address": "金花街道中山七路333号2号楼115-2铺",
+     "district": "荔湾",
+     "lng": 113.244724,
+     "lat": 23.124965
+    },
+    {
+     "poi_name": "MONKEY PAI COFFEE(番禺店)",
+     "address": "钟村街泽溪街17号首层北广场102铺",
+     "district": "番禺",
+     "lng": 113.333631,
+     "lat": 22.994254
+    }
+   ],
+   "id": 43
   },
   {
    "district": "白云",
@@ -617,7 +748,33 @@
    "ok": true,
    "photo": "d05-08.jpg",
    "geo_district": "白云区",
-   "geo_township": "龙归街道"
+   "geo_township": "龙归街道",
+   "kind": "candidate",
+   "alts": [
+    {
+     "poi_name": "周氏大宗祠（江高）",
+     "address": "江高南岗西路与鹤岗南街交叉口东北60米",
+     "district": "白云",
+     "lng": 113.20392,
+     "lat": 23.247361
+    },
+    {
+     "poi_name": "周氏大宗祠（乌溪）",
+     "address": "乌溪路与乌溪路和鸣街交叉口西北40米",
+     "district": "白云",
+     "lng": 113.357568,
+     "lat": 23.342484
+    },
+    {
+     "poi_name": "周氏大宗祠（茅岗，黄埔）",
+     "address": "鱼珠街道茅岗村爱莲大街爱莲八巷31号",
+     "district": "黄埔",
+     "lng": 113.442218,
+     "lat": 23.111018
+    }
+   ],
+   "id": 44,
+   "note": "广州有 4 座同名宗祠，清单只写「白云·周氏大宗祠」，未注明所在村"
   },
   {
    "district": "白云",
@@ -631,7 +788,9 @@
    "ok": true,
    "photo": "d05-09.jpg",
    "geo_district": "白云区",
-   "geo_township": "永平街道"
+   "geo_township": "永平街道",
+   "kind": "matched",
+   "id": 45
   },
   {
    "district": "黄埔",
@@ -645,7 +804,9 @@
    "ok": true,
    "photo": "d06-01.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "南岗街道"
+   "geo_township": "南岗街道",
+   "kind": "matched",
+   "id": 46
   },
   {
    "district": "黄埔",
@@ -659,7 +820,9 @@
    "ok": true,
    "photo": "d06-02.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "文冲街道"
+   "geo_township": "文冲街道",
+   "kind": "matched",
+   "id": 47
   },
   {
    "district": "黄埔",
@@ -674,7 +837,9 @@
    "photo": "d06-03.jpg",
    "geo_district": "黄埔区",
    "geo_township": "长岭街道",
-   "note": "原匹配到公交站；改用村内驿站作为落点，属村庄大致位置"
+   "note": "村庄无精确POI，以村内驿站为大致落点",
+   "kind": "area",
+   "id": 48
   },
   {
    "district": "黄埔",
@@ -688,7 +853,9 @@
    "ok": true,
    "photo": "d06-04.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "长洲街道"
+   "geo_township": "长洲街道",
+   "kind": "matched",
+   "id": 49
   },
   {
    "district": "黄埔",
@@ -702,7 +869,9 @@
    "ok": true,
    "photo": "d06-05.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "南岗街道"
+   "geo_township": "南岗街道",
+   "kind": "matched",
+   "id": 50
   },
   {
    "district": "黄埔",
@@ -716,7 +885,9 @@
    "ok": true,
    "photo": "d06-06.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "长洲街道"
+   "geo_township": "长洲街道",
+   "kind": "matched",
+   "id": 51
   },
   {
    "district": "黄埔",
@@ -731,7 +902,18 @@
    "photo": "d06-07.jpg",
    "geo_district": "黄埔区",
    "geo_township": "联和街道",
-   "note": "原误匹配到番禺新造良仓店；黄埔科学城店才是清单所指"
+   "note": "定为科学城店（黄埔联和街道），与清单所属城区一致",
+   "kind": "matched",
+   "alts": [
+    {
+     "poi_name": "池沼 CHIZHAO LIVEHOUSE（番禺良仓）",
+     "address": "和平路与和睦路交叉口东北320米",
+     "district": "番禺",
+     "lng": 113.419135,
+     "lat": 23.041352
+    }
+   ],
+   "id": 52
   },
   {
    "district": "黄埔",
@@ -746,7 +928,18 @@
    "photo": "d06-08.jpg",
    "geo_district": "黄埔区",
    "geo_township": "联和街道",
-   "note": "原误匹配到海珠合生新天地店；黄埔云汇店才是清单所指"
+   "note": "定为广州云汇店（黄埔科学大道195号），与清单所属城区一致",
+   "kind": "matched",
+   "alts": [
+    {
+     "poi_name": "愈欣书店(海珠合生新天地店)",
+     "address": "凤阳街道逸景路355号海珠合生新天地商场2楼",
+     "district": "海珠",
+     "lng": 113.302404,
+     "lat": 23.080947
+    }
+   ],
+   "id": 53
   },
   {
    "district": "黄埔",
@@ -760,7 +953,9 @@
    "ok": true,
    "photo": "d06-09.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "龙湖街道"
+   "geo_township": "龙湖街道",
+   "kind": "matched",
+   "id": 54
   },
   {
    "district": "黄埔",
@@ -774,7 +969,9 @@
    "ok": true,
    "photo": "d06-10.jpg",
    "geo_district": "黄埔区",
-   "geo_township": "长洲街道"
+   "geo_township": "长洲街道",
+   "kind": "matched",
+   "id": 55
   },
   {
    "district": "花都",
@@ -788,7 +985,9 @@
    "ok": true,
    "photo": "d07-01.jpg",
    "geo_district": "花都区",
-   "geo_township": "赤坭镇"
+   "geo_township": "赤坭镇",
+   "kind": "matched",
+   "id": 56
   },
   {
    "district": "花都",
@@ -802,7 +1001,10 @@
    "ok": true,
    "photo": "d07-02.jpg",
    "geo_district": "花都区",
-   "geo_township": "花东镇"
+   "geo_township": "花东镇",
+   "kind": "area",
+   "id": 57,
+   "note": "大型度假区，访客中心/酒店/营地为区内不同设施，取度假区中心"
   },
   {
    "district": "花都",
@@ -816,7 +1018,9 @@
    "ok": true,
    "photo": "d07-03.jpg",
    "geo_district": "花都区",
-   "geo_township": "花山镇"
+   "geo_township": "花山镇",
+   "kind": "matched",
+   "id": 58
   },
   {
    "district": "花都",
@@ -830,7 +1034,9 @@
    "ok": true,
    "photo": "d07-04.jpg",
    "geo_district": "花都区",
-   "geo_township": "狮岭镇"
+   "geo_township": "狮岭镇",
+   "kind": "matched",
+   "id": 59
   },
   {
    "district": "花都",
@@ -844,7 +1050,9 @@
    "ok": true,
    "photo": "d07-05.jpg",
    "geo_district": "花都区",
-   "geo_township": "新雅街道"
+   "geo_township": "新雅街道",
+   "kind": "matched",
+   "id": 60
   },
   {
    "district": "花都",
@@ -858,7 +1066,9 @@
    "ok": true,
    "photo": "d07-06.jpg",
    "geo_district": "花都区",
-   "geo_township": "炭步镇"
+   "geo_township": "炭步镇",
+   "kind": "matched",
+   "id": 61
   },
   {
    "district": "花都",
@@ -872,7 +1082,9 @@
    "ok": true,
    "photo": "d07-07.jpg",
    "geo_district": "花都区",
-   "geo_township": "炭步镇"
+   "geo_township": "炭步镇",
+   "kind": "matched",
+   "id": 62
   },
   {
    "district": "花都",
@@ -886,7 +1098,9 @@
    "ok": true,
    "photo": "d07-08.jpg",
    "geo_district": "花都区",
-   "geo_township": "梯面镇"
+   "geo_township": "梯面镇",
+   "kind": "matched",
+   "id": 63
   },
   {
    "district": "花都",
@@ -901,7 +1115,9 @@
    "photo": "d07-09.jpg",
    "geo_district": "花都区",
    "geo_township": "梯面镇",
-   "note": "原误匹配到番禺洛浦同名地点；花都梯面镇蝴蝶谷内确有此店"
+   "note": "花都梯面镇西坑村芙源路142号，区内唯一",
+   "kind": "matched",
+   "id": 64
   },
   {
    "district": "番禺",
@@ -915,7 +1131,9 @@
    "ok": true,
    "photo": "d08-01.jpg",
    "geo_district": "番禺区",
-   "geo_township": "南村镇"
+   "geo_township": "南村镇",
+   "kind": "matched",
+   "id": 65
   },
   {
    "district": "番禺",
@@ -929,7 +1147,9 @@
    "ok": true,
    "photo": "d08-02.jpg",
    "geo_district": "番禺区",
-   "geo_township": "东环街道"
+   "geo_township": "东环街道",
+   "kind": "matched",
+   "id": 66
   },
   {
    "district": "番禺",
@@ -943,7 +1163,9 @@
    "ok": true,
    "photo": "d08-03.jpg",
    "geo_district": "番禺区",
-   "geo_township": "小谷围街道"
+   "geo_township": "小谷围街道",
+   "kind": "matched",
+   "id": 67
   },
   {
    "district": "番禺",
@@ -957,7 +1179,9 @@
    "ok": true,
    "photo": "d08-04.jpg",
    "geo_district": "番禺区",
-   "geo_township": "市桥街道"
+   "geo_township": "市桥街道",
+   "kind": "matched",
+   "id": 68
   },
   {
    "district": "番禺",
@@ -971,7 +1195,9 @@
    "ok": true,
    "photo": "d08-05.jpg",
    "geo_district": "番禺区",
-   "geo_township": "新造镇"
+   "geo_township": "新造镇",
+   "kind": "matched",
+   "id": 69
   },
   {
    "district": "番禺",
@@ -985,7 +1211,9 @@
    "ok": true,
    "photo": "d08-06.jpg",
    "geo_district": "番禺区",
-   "geo_township": "洛浦街道"
+   "geo_township": "洛浦街道",
+   "kind": "matched",
+   "id": 70
   },
   {
    "district": "南沙",
@@ -999,7 +1227,9 @@
    "ok": true,
    "photo": "d09-01.jpg",
    "geo_district": "南沙区",
-   "geo_township": "横沥镇"
+   "geo_township": "横沥镇",
+   "kind": "matched",
+   "id": 71
   },
   {
    "district": "南沙",
@@ -1012,7 +1242,11 @@
    "amap_type": "道路级定位（营地本身高德未收录）",
    "ok": true,
    "photo": "d09-02.jpg",
-   "note": "高德未收录该营地，按官方地址「滨湾路6号」做道路级定位，实际误差约几百米。2026-08-20 开放，自由露营区免费，紧邻大湾区文化体育中心。"
+   "note": "高德未收录该营地，按官方地址「滨湾路6号」作道路级定位，误差约几百米",
+   "geo_district": "南沙区",
+   "geo_township": "万顷沙镇",
+   "kind": "candidate",
+   "id": 72
   },
   {
    "district": "南沙",
@@ -1026,7 +1260,9 @@
    "ok": true,
    "photo": "d09-03.jpg",
    "geo_district": "南沙区",
-   "geo_township": "南沙街道"
+   "geo_township": "南沙街道",
+   "kind": "matched",
+   "id": 73
   },
   {
    "district": "南沙",
@@ -1040,7 +1276,9 @@
    "ok": true,
    "photo": "d09-04.jpg",
    "geo_district": "南沙区",
-   "geo_township": "南沙街道"
+   "geo_township": "南沙街道",
+   "kind": "matched",
+   "id": 74
   },
   {
    "district": "南沙",
@@ -1054,7 +1292,9 @@
    "ok": true,
    "photo": "d09-05.jpg",
    "geo_district": "南沙区",
-   "geo_township": "南沙街道"
+   "geo_township": "南沙街道",
+   "kind": "matched",
+   "id": 75
   },
   {
    "district": "南沙",
@@ -1068,7 +1308,9 @@
    "ok": true,
    "photo": "d09-06.jpg",
    "geo_district": "南沙区",
-   "geo_township": "港湾街道"
+   "geo_township": "港湾街道",
+   "kind": "matched",
+   "id": 76
   },
   {
    "district": "南沙",
@@ -1082,7 +1324,9 @@
    "ok": true,
    "photo": "d09-07.jpg",
    "geo_district": "南沙区",
-   "geo_township": "南沙街道"
+   "geo_township": "南沙街道",
+   "kind": "matched",
+   "id": 77
   },
   {
    "district": "南沙",
@@ -1096,7 +1340,9 @@
    "ok": true,
    "photo": "d09-08.jpg",
    "geo_district": "南沙区",
-   "geo_township": "港湾街道"
+   "geo_township": "港湾街道",
+   "kind": "matched",
+   "id": 78
   },
   {
    "district": "南沙",
@@ -1110,7 +1356,9 @@
    "ok": true,
    "photo": "d09-09.jpg",
    "geo_district": "南沙区",
-   "geo_township": "南沙街道"
+   "geo_township": "南沙街道",
+   "kind": "matched",
+   "id": 79
   },
   {
    "district": "南沙",
@@ -1124,7 +1372,19 @@
    "ok": true,
    "photo": "d09-10.jpg",
    "geo_district": "南沙区",
-   "geo_township": "横沥镇"
+   "geo_township": "横沥镇",
+   "kind": "matched",
+   "id": 80,
+   "note": "据原图独立低层门店+广场外摆，定为灵山岛店，非喜来登酒店内",
+   "alts": [
+    {
+     "poi_name": "墨礼咖啡(喜来登店)",
+     "address": "丰泽东路66号",
+     "district": "南沙",
+     "lng": 113.529101,
+     "lat": 22.791356
+    }
+   ]
   },
   {
    "district": "从化",
@@ -1138,7 +1398,10 @@
    "ok": true,
    "photo": "d10-01.jpg",
    "geo_district": "从化区",
-   "geo_township": "鳌头镇"
+   "geo_township": "鳌头镇",
+   "kind": "matched",
+   "id": 81,
+   "note": "高德收录为「菠菠萝的花园」，同一地点，名称写法不同"
   },
   {
    "district": "从化",
@@ -1152,7 +1415,9 @@
    "ok": true,
    "photo": "d10-02.jpg",
    "geo_district": "从化区",
-   "geo_township": "鳌头镇"
+   "geo_township": "鳌头镇",
+   "kind": "matched",
+   "id": 82
   },
   {
    "district": "从化",
@@ -1166,7 +1431,9 @@
    "ok": true,
    "photo": "d10-03.jpg",
    "geo_district": "从化区",
-   "geo_township": "太平镇"
+   "geo_township": "太平镇",
+   "kind": "matched",
+   "id": 83
   },
   {
    "district": "从化",
@@ -1180,7 +1447,9 @@
    "ok": true,
    "photo": "d10-04.jpg",
    "geo_district": "从化区",
-   "geo_township": "良口镇"
+   "geo_township": "良口镇",
+   "kind": "matched",
+   "id": 84
   },
   {
    "district": "从化",
@@ -1194,7 +1463,9 @@
    "ok": true,
    "photo": "d10-05.jpg",
    "geo_district": "从化区",
-   "geo_township": "良口镇"
+   "geo_township": "良口镇",
+   "kind": "matched",
+   "id": 85
   },
   {
    "district": "从化",
@@ -1208,7 +1479,9 @@
    "ok": true,
    "photo": "d10-06.jpg",
    "geo_district": "从化区",
-   "geo_township": "良口镇"
+   "geo_township": "良口镇",
+   "kind": "matched",
+   "id": 86
   },
   {
    "district": "从化",
@@ -1222,7 +1495,9 @@
    "ok": true,
    "photo": "d10-07.jpg",
    "geo_district": "从化区",
-   "geo_township": "太平镇"
+   "geo_township": "太平镇",
+   "kind": "matched",
+   "id": 87
   },
   {
    "district": "从化",
@@ -1236,7 +1511,9 @@
    "ok": true,
    "photo": "d10-08.jpg",
    "geo_district": "从化区",
-   "geo_township": "江埔街道"
+   "geo_township": "江埔街道",
+   "kind": "matched",
+   "id": 88
   },
   {
    "district": "从化",
@@ -1250,7 +1527,40 @@
    "ok": true,
    "photo": "d10-09.jpg",
    "geo_district": "从化区",
-   "geo_township": "温泉镇"
+   "geo_township": "温泉镇",
+   "kind": "candidate",
+   "alts": [
+    {
+     "poi_name": "鸭头咖啡(鸭洞里)",
+     "address": "共青路1304号",
+     "district": "从化",
+     "lng": 113.773083,
+     "lat": 23.674273
+    },
+    {
+     "poi_name": "鸭头咖啡(小瀑布)",
+     "address": "少沙街218号",
+     "district": "从化",
+     "lng": 113.64662,
+     "lat": 23.694462
+    },
+    {
+     "poi_name": "鸭头咖啡(泉眼驿站)",
+     "address": "温泉镇温泉西路168号",
+     "district": "从化",
+     "lng": 113.653963,
+     "lat": 23.647749
+    },
+    {
+     "poi_name": "鸭头咖啡(上上罗)",
+     "address": "523乡道",
+     "district": "从化",
+     "lng": 113.640093,
+     "lat": 23.483039
+    }
+   ],
+   "id": 89,
+   "note": "从化有 5 家分店，照片为溪流桥景，无法唯一锁定"
   },
   {
    "district": "增城",
@@ -1264,7 +1574,9 @@
    "ok": true,
    "photo": "d11-01.jpg",
    "geo_district": "增城区",
-   "geo_township": "正果镇"
+   "geo_township": "正果镇",
+   "kind": "matched",
+   "id": 90
   },
   {
    "district": "增城",
@@ -1278,7 +1590,9 @@
    "ok": true,
    "photo": "d11-02.jpg",
    "geo_district": "增城区",
-   "geo_township": "朱村街道"
+   "geo_township": "朱村街道",
+   "kind": "matched",
+   "id": 91
   },
   {
    "district": "增城",
@@ -1292,7 +1606,9 @@
    "ok": true,
    "photo": "d11-03.jpg",
    "geo_district": "增城区",
-   "geo_township": "朱村街道"
+   "geo_township": "朱村街道",
+   "kind": "matched",
+   "id": 92
   },
   {
    "district": "增城",
@@ -1306,7 +1622,9 @@
    "ok": true,
    "photo": "d11-04.jpg",
    "geo_district": "增城区",
-   "geo_township": "派潭镇"
+   "geo_township": "派潭镇",
+   "kind": "matched",
+   "id": 93
   },
   {
    "district": "增城",
@@ -1320,7 +1638,9 @@
    "ok": true,
    "photo": "d11-06.jpg",
    "geo_district": "增城区",
-   "geo_township": "派潭镇"
+   "geo_township": "派潭镇",
+   "kind": "matched",
+   "id": 94
   },
   {
    "district": "增城",
@@ -1334,7 +1654,9 @@
    "ok": true,
    "photo": "d11-07.jpg",
    "geo_district": "增城区",
-   "geo_township": "正果镇"
+   "geo_township": "正果镇",
+   "kind": "matched",
+   "id": 95
   },
   {
    "district": "增城",
@@ -1348,7 +1670,9 @@
    "ok": true,
    "photo": "d11-08.jpg",
    "geo_district": "增城区",
-   "geo_township": "荔城街道"
+   "geo_township": "荔城街道",
+   "kind": "matched",
+   "id": 96
   },
   {
    "district": "增城",
@@ -1362,7 +1686,9 @@
    "ok": true,
    "photo": "d11-09.jpg",
    "geo_district": "增城区",
-   "geo_township": "正果镇"
+   "geo_township": "正果镇",
+   "kind": "matched",
+   "id": 97
   },
   {
    "district": "增城",
@@ -1376,7 +1702,9 @@
    "ok": true,
    "photo": "d11-10.jpg",
    "geo_district": "增城区",
-   "geo_township": "增江街道"
+   "geo_township": "增江街道",
+   "kind": "matched",
+   "id": 98
   },
   {
    "district": "增城",
@@ -1390,7 +1718,9 @@
    "ok": true,
    "photo": "d11-11.jpg",
    "geo_district": "增城区",
-   "geo_township": "派潭镇"
+   "geo_township": "派潭镇",
+   "kind": "matched",
+   "id": 99
   },
   {
    "district": "增城",
@@ -1402,10 +1732,21 @@
    "address": "",
    "amap_type": "",
    "ok": true,
-   "note": "原图未区分门店；高德有两家（植物园店在天河、正果店在增城），按所属城区取正果店",
+   "note": "定为正果店（增城），与清单所属城区一致；另有天河植物园店",
    "photo": "d11-05.jpg",
    "geo_district": "增城区",
-   "geo_township": "正果镇"
+   "geo_township": "正果镇",
+   "kind": "matched",
+   "alts": [
+    {
+     "poi_name": "温室效应植物艺术空间(植物园店)",
+     "address": "白沙水路与长湴北路交叉口西北200米",
+     "district": "天河",
+     "lng": 113.349925,
+     "lat": 23.176425
+    }
+   ],
+   "id": 100
   }
  ],
  "fail": [
