@@ -289,7 +289,7 @@ function openInfo(p, pos) {
       var li = listEl.querySelector('.item[data-pid="' + pt.pid + '"]');
       if (li) li.classList.add('on');
       openInfo(pt, [pt.lng, pt.lat]);
-      map.setZoomAndCenter(Math.max(map.getZoom(), 15), [pt.lng, pt.lat]);
+      map.setZoomAndCenter(Math.max(map.getZoom(), 15), [pt.lng, pt.lat], true);
     });
   }
 }
@@ -412,8 +412,8 @@ function doPaint(){
       m.on('click', function(){
         var lngs = arr.map(function(p){ return p.lng; }), lats = arr.map(function(p){ return p.lat; });
         var b = new AMap.Bounds([Math.min.apply(null,lngs), Math.min.apply(null,lats)], [Math.max.apply(null,lngs), Math.max.apply(null,lats)]);
-        map.setBounds(b, false, [120,120,120,120]);
-        setTimeout(function(){ map.setZoom(Math.min(map.getZoom() + 2, 16)); }, 260);
+        map.setBounds(b, true, [120,120,120,120]);
+        setTimeout(function(){ map.setZoom(Math.min(map.getZoom() + 2, 16), true); }, 260);
       });
       m.setMap(map); drawn.push(m);
     }
@@ -472,7 +472,7 @@ function render() {
     el.onclick = function(){
       Array.prototype.forEach.call(document.querySelectorAll('.item.on'), function(x){ x.classList.remove('on'); });
       el.classList.add('on');
-      map.setZoomAndCenter(16, [p.lng, p.lat]);
+      map.setZoomAndCenter(16, [p.lng, p.lat], true);   /* 立即跳转：避免与 setBounds 动画相互覆盖 */
       openInfo(p, [p.lng, p.lat]);
       if (window.innerWidth <= 820) {
         var m = document.getElementById('map');
