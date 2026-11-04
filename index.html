@@ -201,45 +201,46 @@ function bubbleHTML(n){
 
 /* ================= 地铁图层 ================= */
 var metroOn = true;
-var metroLines = new AMap.OverlayGroup();
-var metroStations = new AMap.OverlayGroup();
-var metroLabels = new AMap.OverlayGroup();
-var metroLoaded = false, metroMeta = [];
+var metroLoaded = false;
+var metroLineO = [], metroStaO = [], metroLblO = [];
+var metroMeta = [];
+
+function showList(arr, on){
+  for (var i = 0; i < arr.length; i++) {
+    if (on) { if (!arr[i]._onMap) { map.add(arr[i]); arr[i]._onMap = true; } }
+    else { if (arr[i]._onMap) { map.remove(arr[i]); arr[i]._onMap = false; } }
+  }
+}
 
 function syncMetro(){
   if (!metroLoaded) return;
-  if (metroOn) { metroLines.show(); }
-  else { metroLines.hide(); metroStations.hide(); metroLabels.hide(); return; }
+  showList(metroLineO, metroOn);
   var z = map.getZoom();
-  if (z >= 12.5) metroStations.show(); else metroStations.hide();
-  if (z >= 14)   metroLabels.show();   else metroLabels.hide();
+  showList(metroStaO, metroOn && z >= 12.5);
+  showList(metroLblO, metroOn && z >= 14);
 }
 
 fetch('data/metro.json').then(function(r){ return r.json(); }).then(function(d){
   (d.lines || []).forEach(function(L){
-    var line = new AMap.Polyline({
+    metroLineO.push(new AMap.Polyline({
       path: L.pts, strokeColor: L.color, strokeWeight: 3.2,
       strokeOpacity: 0.82, lineJoin: 'round', lineCap: 'round',
       zIndex: 20, bubble: false, showDir: false
-    });
-    metroLines.addOverlay(line);
+    }));
     metroMeta.push(L);
   });
   (d.stations || []).forEach(function(S){
-    metroStations.addOverlay(new AMap.CircleMarker({
+    metroStaO.push(new AMap.CircleMarker({
       center: S.pts, radius: 3.2, strokeColor: '#fff', strokeWeight: 1.4,
       fillColor: '#3b3b3b', fillOpacity: 0.9, zIndex: 22, bubble: false
     }));
-    metroLabels.addOverlay(new AMap.Text({
+    metroLblO.push(new AMap.Text({
       text: S.name, position: S.pts, zIndex: 23, bubble: false,
       style: {'background':'rgba(255,255,255,.88)','border':'none','padding':'1px 4px',
               'font-size':'10.5px','color':'#333','border-radius':'3px','white-space':'nowrap',
               'box-shadow':'0 1px 3px rgba(0,0,0,.18)','pointer-events':'none'}
     }));
   });
-  metroLines.setMap(map);
-  metroStations.setMap(map);
-  metroLabels.setMap(map);
   metroLoaded = true;
   syncMetro();
 }).catch(function(e){ console.warn('地铁图层加载失败', e); });
