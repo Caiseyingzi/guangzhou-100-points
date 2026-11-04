@@ -216,6 +216,12 @@ function syncMetro(){
   if (!metroLoaded) return;
   showList(metroLineO, metroOn);
   var z = map.getZoom();
+  /* 低 zoom 线细而淡，避免中心区糊成一团；放大后加重，便于分辨线路 */
+  var w = z < 10 ? 2.2 : (z < 12 ? 2.8 : (z < 14 ? 3.6 : 4.4));
+  var op = z < 10 ? 0.58 : (z < 12 ? 0.70 : 0.85);
+  for (var i = 0; i < metroLineO.length; i++) {
+    metroLineO[i].setOptions({strokeWeight: w, strokeOpacity: op});
+  }
   showList(metroStaO, metroOn && z >= 12.5);
   showList(metroLblO, metroOn && z >= 14);
 }
