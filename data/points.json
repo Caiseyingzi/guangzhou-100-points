@@ -10,7 +10,9 @@
    "address": "北京路249号(北京路地铁站A2口步行440米)",
    "amap_type": "购物服务;购物相关场所;购物相关场所",
    "ok": true,
-   "photo": "d01-01.jpg"
+   "photo": "d01-01.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "北京街道"
   },
   {
    "district": "越秀",
@@ -22,7 +24,9 @@
    "address": "越秀区北京路295号",
    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
    "ok": true,
-   "photo": "d01-02.jpg"
+   "photo": "d01-02.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "北京街道"
   },
   {
    "district": "越秀",
@@ -34,7 +38,9 @@
    "address": "北京路168号(地铁6号线北京路站B口步行80米)",
    "amap_type": "购物服务;商场;购物中心",
    "ok": true,
-   "photo": "d01-03.jpg"
+   "photo": "d01-03.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "人民街道"
   },
   {
    "district": "越秀",
@@ -46,7 +52,9 @@
    "address": "北京路314号(公园前地铁站出入口步行250米)",
    "amap_type": "购物服务;专卖店;书店",
    "ok": true,
-   "photo": "d01-04.jpg"
+   "photo": "d01-04.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "北京街道"
   },
   {
    "district": "越秀",
@@ -58,7 +66,9 @@
    "address": "文德东路29号(北京路地铁站出入口步行450米)",
    "amap_type": "商务住宅;住宅区;住宅小区",
    "ok": true,
-   "photo": "d01-05.jpg"
+   "photo": "d01-05.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "珠光街道"
   },
   {
    "district": "越秀",
@@ -70,7 +80,9 @@
    "address": "白云街道大通路263号",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d01-06.jpg"
+   "photo": "d01-06.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "白云街道"
   },
   {
    "district": "越秀",
@@ -82,7 +94,9 @@
    "address": "流花湖路120号东方宾馆旁",
    "amap_type": "餐饮服务;中餐厅;广东菜(粤菜)",
    "ok": true,
-   "photo": "d01-07.jpg"
+   "photo": "d01-07.jpg",
+   "geo_district": "越秀区",
+   "geo_township": "流花街道"
   },
   {
    "district": "海珠",
@@ -94,7 +108,9 @@
    "address": "滨江东路与艺苑路交叉口东200米",
    "amap_type": "体育休闲服务;休闲场所;休闲场所",
    "ok": true,
-   "photo": "d02-01.jpg"
+   "photo": "d02-01.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "赤岗街道"
   },
   {
    "district": "海珠",
@@ -106,7 +122,9 @@
    "address": "美居北街与创颖街交叉口东北60米",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d02-02.jpg"
+   "photo": "d02-02.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "琶洲街道"
   },
   {
    "district": "海珠",
@@ -118,7 +136,9 @@
    "address": "海珠区",
    "amap_type": "地名地址信息;交通地名;桥",
    "ok": true,
-   "photo": "d02-03.jpg"
+   "photo": "d02-03.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "赤岗街道"
   },
   {
    "district": "海珠",
@@ -130,7 +150,9 @@
    "address": "飞鸢公园(磨碟沙地铁站H口步行400米)",
    "amap_type": "体育休闲服务;休闲场所;休闲场所",
    "ok": true,
-   "photo": "d02-04.jpg"
+   "photo": "d02-04.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "琶洲街道"
   },
   {
    "district": "海珠",
@@ -142,7 +164,9 @@
    "address": "阅江西路与海洲路交叉口西180米",
    "amap_type": "购物服务;商场;商场",
    "ok": true,
-   "photo": "d02-05.jpg"
+   "photo": "d02-05.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "琶洲街道"
   },
   {
    "district": "海珠",
@@ -154,7 +178,9 @@
    "address": "新港东路69号(磨碟沙地铁站B口步行400米)",
    "amap_type": "购物服务;商场;商场",
    "ok": true,
-   "photo": "d02-06.jpg"
+   "photo": "d02-06.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "琶洲街道"
   },
   {
    "district": "海珠",
@@ -166,7 +192,9 @@
    "address": "新港中路354号影城花园(珠影-蓝谷创意园停车场收费亭内直行50米的右边)",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d02-07.jpg"
+   "photo": "d02-07.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "赤岗街道"
   },
   {
    "district": "海珠",
@@ -178,7 +206,9 @@
    "address": "新港东路618号南丰汇2层(新港东地铁站D口旁)",
    "amap_type": "生活服务;生活服务场所;生活服务场所",
    "ok": true,
-   "photo": "d02-08.jpg"
+   "photo": "d02-08.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "琶洲街道"
   },
   {
    "district": "海珠",
@@ -190,7 +220,10 @@
    "address": "滨江西路109号",
    "amap_type": "交通设施服务;港口码头;人渡口",
    "ok": true,
-   "photo": "d02-09.jpg"
+   "photo": "d02-09.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "南华西街道",
+   "note": "高德标注该码头暂停营业，去之前先确认"
   },
   {
    "district": "海珠",
@@ -202,7 +235,9 @@
    "address": "沥滘路46号青创W艺术江景街区WAREHOUSE",
    "amap_type": "购物服务;商场;商场",
    "ok": true,
-   "photo": "d02-10.jpg"
+   "photo": "d02-10.jpg",
+   "geo_district": "海珠区",
+   "geo_township": "南洲街道"
   },
   {
    "district": "荔湾",
@@ -214,7 +249,9 @@
    "address": "白鹅潭南路8-10号",
    "amap_type": "购物服务;商场;购物中心",
    "ok": true,
-   "photo": "d03-01.jpg"
+   "photo": "d03-01.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "花地街道"
   },
   {
    "district": "荔湾",
@@ -226,7 +263,9 @@
    "address": "芳村大道东146-166号",
    "amap_type": "购物服务;商场;商场",
    "ok": true,
-   "photo": "d03-02.jpg"
+   "photo": "d03-02.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "冲口街道"
   },
   {
    "district": "荔湾",
@@ -238,7 +277,9 @@
    "address": "东塱大街45号",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d03-03.jpg"
+   "photo": "d03-03.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "东沙街道"
   },
   {
    "district": "荔湾",
@@ -250,7 +291,9 @@
    "address": "恩宁路99号",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d03-04.jpg"
+   "photo": "d03-04.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "多宝街道"
   },
   {
    "district": "荔湾",
@@ -262,7 +305,9 @@
    "address": "塞坝路25号",
    "amap_type": "餐饮服务;中餐厅;中餐厅",
    "ok": true,
-   "photo": "d03-05.jpg"
+   "photo": "d03-05.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "石围塘街道"
   },
   {
    "district": "荔湾",
@@ -274,7 +319,9 @@
    "address": "石围塘街道塞坝路25号之五401室",
    "amap_type": "科教文化服务;科教文化场所;科教文化场所",
    "ok": true,
-   "photo": "d03-06.jpg"
+   "photo": "d03-06.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "石围塘街道"
   },
   {
    "district": "荔湾",
@@ -287,7 +334,9 @@
    "amap_type": "购物服务;综合市场;水产海鲜市场",
    "ok": true,
    "note": "原图作「上埗」，高德实为「上堓」",
-   "photo": "d03-07.jpg"
+   "photo": "d03-07.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "多宝街道"
   },
   {
    "district": "荔湾",
@@ -299,7 +348,9 @@
    "address": "六二三路520号2层01号",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d03-08.jpg"
+   "photo": "d03-08.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "多宝街道"
   },
   {
    "district": "荔湾",
@@ -311,7 +362,9 @@
    "address": "西村街道西增路63号T.I.T原创荟B4B5栋",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d03-09.jpg"
+   "photo": "d03-09.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "西村街道"
   },
   {
    "district": "荔湾",
@@ -323,7 +376,9 @@
    "address": "荔湾区",
    "amap_type": "地名地址信息;交通地名;道路名",
    "ok": true,
-   "photo": "d03-10.jpg"
+   "photo": "d03-10.jpg",
+   "geo_district": "荔湾区",
+   "geo_township": "金花街道"
   },
   {
    "district": "天河",
@@ -335,7 +390,9 @@
    "address": "体育东路27号1-2层(冼村地铁站B口步行350米)",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d04-01.jpg"
+   "photo": "d04-01.jpg",
+   "geo_district": "天河区",
+   "geo_township": "天河南街道"
   },
   {
    "district": "天河",
@@ -347,7 +404,9 @@
    "address": "凌塘村新庄北巷48号101房",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅|体育休闲服务;休闲场所;休闲场所",
    "ok": true,
-   "photo": "d04-02.jpg"
+   "photo": "d04-02.jpg",
+   "geo_district": "天河区",
+   "geo_township": "新塘街道"
   },
   {
    "district": "天河",
@@ -359,7 +418,9 @@
    "address": "天河路123号天河购书中心6楼NO-601",
    "amap_type": "体育休闲服务;娱乐场所;酒吧",
    "ok": true,
-   "photo": "d04-03.jpg"
+   "photo": "d04-03.jpg",
+   "geo_district": "天河区",
+   "geo_township": "天河南街道"
   },
   {
    "district": "天河",
@@ -371,7 +432,9 @@
    "address": "奥体南路12号(奥体优托邦西北门1248)",
    "amap_type": "体育休闲服务;娱乐场所;酒吧",
    "ok": true,
-   "photo": "d04-04.jpg"
+   "photo": "d04-04.jpg",
+   "geo_district": "天河区",
+   "geo_township": "黄村街道"
   },
   {
    "district": "天河",
@@ -383,7 +446,9 @@
    "address": "华夏路16号(珠江新城地铁站C口步行160米)",
    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
    "ok": true,
-   "photo": "d04-05.jpg"
+   "photo": "d04-05.jpg",
+   "geo_district": "天河区",
+   "geo_township": "猎德街道"
   },
   {
    "district": "天河",
@@ -395,7 +460,9 @@
    "address": "珠江东路28号越秀金融大厦F68层",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d04-06.jpg"
+   "photo": "d04-06.jpg",
+   "geo_district": "天河区",
+   "geo_township": "冼村街道"
   },
   {
    "district": "天河",
@@ -407,7 +474,9 @@
    "address": "长兴街道天源路1190号科学家之家G栋综合楼202房之一",
    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
    "ok": true,
-   "photo": "d04-07.jpg"
+   "photo": "d04-07.jpg",
+   "geo_district": "天河区",
+   "geo_township": "长兴街道"
   },
   {
    "district": "天河",
@@ -419,7 +488,9 @@
    "address": "猎德大道6号(猎德地铁站B口步行180米)",
    "amap_type": "商务住宅;住宅区;住宅小区|汽车销售;汽车销售;汽车销售",
    "ok": true,
-   "photo": "d04-08.jpg"
+   "photo": "d04-08.jpg",
+   "geo_district": "天河区",
+   "geo_township": "猎德街道"
   },
   {
    "district": "天河",
@@ -431,7 +502,9 @@
    "address": "迎龙路1283号",
    "amap_type": "商务住宅;产业园区;产业园区",
    "ok": true,
-   "photo": "d04-09.jpg"
+   "photo": "d04-09.jpg",
+   "geo_district": "天河区",
+   "geo_township": "龙洞街道"
   },
   {
    "district": "白云",
@@ -443,7 +516,9 @@
    "address": "江高镇夏荷路1号",
    "amap_type": "科教文化服务;博物馆;博物馆",
    "ok": true,
-   "photo": "d05-01.jpg"
+   "photo": "d05-01.jpg",
+   "geo_district": "白云区",
+   "geo_township": "江高镇"
   },
   {
    "district": "白云",
@@ -455,7 +530,9 @@
    "address": "科泰二路1号之二",
    "amap_type": "科教文化服务;博物馆;博物馆",
    "ok": true,
-   "photo": "d05-02.jpg"
+   "photo": "d05-02.jpg",
+   "geo_district": "白云区",
+   "geo_township": "龙归街道"
   },
   {
    "district": "白云",
@@ -467,7 +544,9 @@
    "address": "永平街永泰南庄一路财富名门B2栋5层",
    "amap_type": "购物服务;专卖店;专营店",
    "ok": true,
-   "photo": "d05-03.jpg"
+   "photo": "d05-03.jpg",
+   "geo_district": "白云区",
+   "geo_township": "永平街道"
   },
   {
    "district": "白云",
@@ -479,7 +558,9 @@
    "address": "白云湖大道",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d05-04.jpg"
+   "photo": "d05-04.jpg",
+   "geo_district": "白云区",
+   "geo_township": "白云湖街道"
   },
   {
    "district": "白云",
@@ -491,7 +572,9 @@
    "address": "白云山风景区",
    "amap_type": "住宿服务;宾馆酒店;四星级宾馆",
    "ok": true,
-   "photo": "d05-05.jpg"
+   "photo": "d05-05.jpg",
+   "geo_district": "白云区",
+   "geo_township": "同和街道"
   },
   {
    "district": "白云",
@@ -503,19 +586,24 @@
    "address": "太和镇头陂桔洞企岭街16号101房",
    "amap_type": "住宿服务;旅馆招待所;旅馆招待所",
    "ok": true,
-   "photo": "d05-06.jpg"
+   "photo": "d05-06.jpg",
+   "geo_district": "白云区",
+   "geo_township": "太和镇"
   },
   {
    "district": "白云",
    "idx": 7,
    "name": "MONKEY PAI 咖啡",
-   "lng": 113.244724,
-   "lat": 23.124965,
-   "poi_name": "MONKEY PAI COFFEE(扬韬广场店)",
-   "address": "金花街道中山七路333号2号楼115-2铺(陈家祠地铁站A口步行180米)",
+   "lng": 113.304464,
+   "lat": 23.213875,
+   "poi_name": "MONKEY PAI COFFEE(白云区生态自然学校店)",
+   "address": "白云区元下田三路与学塘山街交叉口东南220米",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d05-07.jpg"
+   "photo": "d05-07.jpg",
+   "geo_district": "白云区",
+   "geo_township": "永平街道",
+   "note": "原匹配到荔湾扬韬广场店；据原图照片（热带花园式户外店）核定为白云生态自然学校店"
   },
   {
    "district": "白云",
@@ -527,7 +615,9 @@
    "address": "南村蟠龙西街27号",
    "amap_type": "风景名胜;风景名胜;寺庙道观",
    "ok": true,
-   "photo": "d05-08.jpg"
+   "photo": "d05-08.jpg",
+   "geo_district": "白云区",
+   "geo_township": "龙归街道"
   },
   {
    "district": "白云",
@@ -539,7 +629,9 @@
    "address": "永平街永泰学山塘街83号",
    "amap_type": "商务住宅;住宅区;住宅小区",
    "ok": true,
-   "photo": "d05-09.jpg"
+   "photo": "d05-09.jpg",
+   "geo_district": "白云区",
+   "geo_township": "永平街道"
   },
   {
    "district": "黄埔",
@@ -551,7 +643,9 @@
    "address": "沙步村鹿步大街",
    "amap_type": "购物服务;特色商业街;特色商业街",
    "ok": true,
-   "photo": "d06-01.jpg"
+   "photo": "d06-01.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "南岗街道"
   },
   {
    "district": "黄埔",
@@ -563,19 +657,24 @@
    "address": "文冲祖德街幸福里历史文化街区",
    "amap_type": "购物服务;特色商业街;特色商业街",
    "ok": true,
-   "photo": "d06-02.jpg"
+   "photo": "d06-02.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "文冲街道"
   },
   {
    "district": "黄埔",
    "idx": 3,
    "name": "长岭街道黄麻村",
-   "lng": 113.464317,
-   "lat": 23.20137,
-   "poi_name": "黄麻村(公交站)",
-   "address": "396路;夜60路",
-   "amap_type": "交通设施服务;公交车站;公交车站相关",
+   "lng": 113.462225,
+   "lat": 23.219325,
+   "poi_name": "黄麻村驿站",
+   "address": "黄埔区长岭街道黄麻村（驿站为村内休闲服务点）",
+   "amap_type": "生活服务;生活服务场所;生活服务场所",
    "ok": true,
-   "photo": "d06-03.jpg"
+   "photo": "d06-03.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "长岭街道",
+   "note": "原匹配到公交站；改用村内驿站作为落点，属村庄大致位置"
   },
   {
    "district": "黄埔",
@@ -587,7 +686,9 @@
    "address": "长洲岛中山公园前路32号",
    "amap_type": "风景名胜;公园广场;公园",
    "ok": true,
-   "photo": "d06-04.jpg"
+   "photo": "d06-04.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "长洲街道"
   },
   {
    "district": "黄埔",
@@ -599,7 +700,9 @@
    "address": "南岗西路392号古榕树公园",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d06-05.jpg"
+   "photo": "d06-05.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "南岗街道"
   },
   {
    "district": "黄埔",
@@ -611,31 +714,39 @@
    "address": "金洲北路175号之四(长洲地铁站C口步行230米)",
    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
    "ok": true,
-   "photo": "d06-06.jpg"
+   "photo": "d06-06.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "长洲街道"
   },
   {
    "district": "黄埔",
    "idx": 7,
    "name": "池沼 CHIZHAO LIVEHOUSE",
-   "lng": 113.419135,
-   "lat": 23.041352,
-   "poi_name": "池沼 CHIZHAO LIVEHOUSE",
-   "address": "和平路与和睦路交叉口东北320米",
+   "lng": 113.451808,
+   "lat": 23.169694,
+   "poi_name": "池沼CHIZHAOLIVEHOUSE科学城店",
+   "address": "黄埔区联和街道智尚黄埔荟(优托邦科学城店)GetMall云汇天地",
    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
    "ok": true,
-   "photo": "d06-07.jpg"
+   "photo": "d06-07.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "联和街道",
+   "note": "原误匹配到番禺新造良仓店；黄埔科学城店才是清单所指"
   },
   {
    "district": "黄埔",
    "idx": 8,
    "name": "愈欣书店",
-   "lng": 113.302404,
-   "lat": 23.080947,
-   "poi_name": "愈欣书店(海珠合生新天地店)",
-   "address": "凤阳街道逸景路355号海珠合生新天地商场2楼",
+   "lng": 113.451679,
+   "lat": 23.16966,
+   "poi_name": "愈欣书店(广州云汇店)",
+   "address": "黄埔区科学大道195号云汇天地A5栋3楼",
    "amap_type": "购物服务;专卖店;书店",
    "ok": true,
-   "photo": "d06-08.jpg"
+   "photo": "d06-08.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "联和街道",
+   "note": "原误匹配到海珠合生新天地店；黄埔云汇店才是清单所指"
   },
   {
    "district": "黄埔",
@@ -647,7 +758,9 @@
    "address": "竹山路981号",
    "amap_type": "餐饮服务;中餐厅;中餐厅",
    "ok": true,
-   "photo": "d06-09.jpg"
+   "photo": "d06-09.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "龙湖街道"
   },
   {
    "district": "黄埔",
@@ -659,7 +772,9 @@
    "address": "长洲文化旅游度假村海洋路3号",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d06-10.jpg"
+   "photo": "d06-10.jpg",
+   "geo_district": "黄埔区",
+   "geo_township": "长洲街道"
   },
   {
    "district": "花都",
@@ -671,7 +786,9 @@
    "address": "",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d07-01.jpg"
+   "photo": "d07-01.jpg",
+   "geo_district": "花都区",
+   "geo_township": "赤坭镇"
   },
   {
    "district": "花都",
@@ -683,7 +800,9 @@
    "address": "北兴镇山前旅游大道3号",
    "amap_type": "风景名胜;风景名胜;国家级景点",
    "ok": true,
-   "photo": "d07-02.jpg"
+   "photo": "d07-02.jpg",
+   "geo_district": "花都区",
+   "geo_township": "花东镇"
   },
   {
    "district": "花都",
@@ -695,7 +814,9 @@
    "address": "绞燎庄西街1号",
    "amap_type": "科教文化服务;培训机构;培训机构",
    "ok": true,
-   "photo": "d07-03.jpg"
+   "photo": "d07-03.jpg",
+   "geo_district": "花都区",
+   "geo_township": "花山镇"
   },
   {
    "district": "花都",
@@ -707,7 +828,9 @@
    "address": "狮岭镇马岭观花大街18号",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d07-04.jpg"
+   "photo": "d07-04.jpg",
+   "geo_district": "花都区",
+   "geo_township": "狮岭镇"
   },
   {
    "district": "花都",
@@ -719,7 +842,9 @@
    "address": "迎宾大道136-10号",
    "amap_type": "风景名胜;公园广场;公园",
    "ok": true,
-   "photo": "d07-05.jpg"
+   "photo": "d07-05.jpg",
+   "geo_district": "花都区",
+   "geo_township": "新雅街道"
   },
   {
    "district": "花都",
@@ -731,7 +856,9 @@
    "address": "炭步镇塱头村青云路18号",
    "amap_type": "科教文化服务;展览馆;展览馆",
    "ok": true,
-   "photo": "d07-06.jpg"
+   "photo": "d07-06.jpg",
+   "geo_district": "花都区",
+   "geo_township": "炭步镇"
   },
   {
    "district": "花都",
@@ -743,7 +870,9 @@
    "address": "炭步镇朗头路8号",
    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
    "ok": true,
-   "photo": "d07-07.jpg"
+   "photo": "d07-07.jpg",
+   "geo_district": "花都区",
+   "geo_township": "炭步镇"
   },
   {
    "district": "花都",
@@ -755,19 +884,24 @@
    "address": "芙源路",
    "amap_type": "购物服务;购物相关场所;购物相关场所",
    "ok": true,
-   "photo": "d07-08.jpg"
+   "photo": "d07-08.jpg",
+   "geo_district": "花都区",
+   "geo_township": "梯面镇"
   },
   {
    "district": "花都",
    "idx": 9,
    "name": "蝴蝶谷溪里溪里咖啡",
-   "lng": 113.317462,
-   "lat": 23.046576,
-   "poi_name": "蝴蝶谷",
-   "address": "洛浦街上漖村东环路520号",
+   "lng": 113.227738,
+   "lat": 23.559684,
+   "poi_name": "溪里溪里咖啡",
+   "address": "花都区梯面镇西坑村芙源路142号",
    "amap_type": "住宿服务;旅馆招待所;旅馆招待所",
    "ok": true,
-   "photo": "d07-09.jpg"
+   "photo": "d07-09.jpg",
+   "geo_district": "花都区",
+   "geo_township": "梯面镇",
+   "note": "原误匹配到番禺洛浦同名地点；花都梯面镇蝴蝶谷内确有此店"
   },
   {
    "district": "番禺",
@@ -779,7 +913,9 @@
    "address": "汉溪大道东390号",
    "amap_type": "商务住宅;楼宇;商住两用楼宇",
    "ok": true,
-   "photo": "d08-01.jpg"
+   "photo": "d08-01.jpg",
+   "geo_district": "番禺区",
+   "geo_township": "南村镇"
   },
   {
    "district": "番禺",
@@ -791,7 +927,9 @@
    "address": "甘棠大道11号",
    "amap_type": "风景名胜;风景名胜相关;旅游景点",
    "ok": true,
-   "photo": "d08-02.jpg"
+   "photo": "d08-02.jpg",
+   "geo_district": "番禺区",
+   "geo_township": "东环街道"
   },
   {
    "district": "番禺",
@@ -803,7 +941,9 @@
    "address": "小谷围街大学城外环西路318号4-108",
    "amap_type": "科教文化服务;博物馆;博物馆",
    "ok": true,
-   "photo": "d08-03.jpg"
+   "photo": "d08-03.jpg",
+   "geo_district": "番禺区",
+   "geo_township": "小谷围街道"
   },
   {
    "district": "番禺",
@@ -815,7 +955,9 @@
    "address": "环城西路与西坊大街交叉口西北40米",
    "amap_type": "商务住宅;商务住宅相关;商务住宅相关",
    "ok": true,
-   "photo": "d08-04.jpg"
+   "photo": "d08-04.jpg",
+   "geo_district": "番禺区",
+   "geo_township": "市桥街道"
   },
   {
    "district": "番禺",
@@ -827,7 +969,9 @@
    "address": "新造镇和平路1号",
    "amap_type": "商务住宅;产业园区;产业园区",
    "ok": true,
-   "photo": "d08-05.jpg"
+   "photo": "d08-05.jpg",
+   "geo_district": "番禺区",
+   "geo_township": "新造镇"
   },
   {
    "district": "番禺",
@@ -839,7 +983,9 @@
    "address": "北环路11号",
    "amap_type": "商务住宅;产业园区;产业园区",
    "ok": true,
-   "photo": "d08-06.jpg"
+   "photo": "d08-06.jpg",
+   "geo_district": "番禺区",
+   "geo_township": "洛浦街道"
   },
   {
    "district": "南沙",
@@ -851,7 +997,9 @@
    "address": "横沥镇安益路",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d09-01.jpg"
+   "photo": "d09-01.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "横沥镇"
   },
   {
    "district": "南沙",
@@ -876,7 +1024,9 @@
    "address": "广州520山海骑行道(蕉门碧道段)与进港大道交叉口东北400米",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d09-03.jpg"
+   "photo": "d09-03.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "南沙街道"
   },
   {
    "district": "南沙",
@@ -888,7 +1038,9 @@
    "address": "环市大道北与358省道交叉口北360米",
    "amap_type": "风景名胜;风景名胜;风景名胜",
    "ok": true,
-   "photo": "d09-04.jpg"
+   "photo": "d09-04.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "南沙街道"
   },
   {
    "district": "南沙",
@@ -900,7 +1052,9 @@
    "address": "蕉西路128号",
    "amap_type": "商务住宅;楼宇;商务写字楼",
    "ok": true,
-   "photo": "d09-05.jpg"
+   "photo": "d09-05.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "南沙街道"
   },
   {
    "district": "南沙",
@@ -912,7 +1066,9 @@
    "address": "港湾街道港前大道南石奥苑小区1号101房",
    "amap_type": "科教文化服务;图书馆;图书馆",
    "ok": true,
-   "photo": "d09-06.jpg"
+   "photo": "d09-06.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "港湾街道"
   },
   {
    "district": "南沙",
@@ -924,7 +1080,9 @@
    "address": "凤凰大道焦西路停车场旁",
    "amap_type": "购物服务;花鸟鱼虫市场;花卉市场",
    "ok": true,
-   "photo": "d09-07.jpg"
+   "photo": "d09-07.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "南沙街道"
   },
   {
    "district": "南沙",
@@ -936,7 +1094,9 @@
    "address": "南沙博物馆东北侧280米",
    "amap_type": "购物服务;购物相关场所;购物相关场所",
    "ok": true,
-   "photo": "d09-08.jpg"
+   "photo": "d09-08.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "港湾街道"
   },
   {
    "district": "南沙",
@@ -948,7 +1108,9 @@
    "address": "南沙街道珠电路69号JT体育社区迷山亘野",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d09-09.jpg"
+   "photo": "d09-09.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "南沙街道"
   },
   {
    "district": "南沙",
@@ -960,7 +1122,9 @@
    "address": "江林南路8号",
    "amap_type": "餐饮服务;咖啡厅;咖啡厅",
    "ok": true,
-   "photo": "d09-10.jpg"
+   "photo": "d09-10.jpg",
+   "geo_district": "南沙区",
+   "geo_township": "横沥镇"
   },
   {
    "district": "从化",
@@ -972,7 +1136,9 @@
    "address": "级鱼苗养殖基地东南侧150米",
    "amap_type": "公司企业;农林牧渔基地;其它农林牧渔基地",
    "ok": true,
-   "photo": "d10-01.jpg"
+   "photo": "d10-01.jpg",
+   "geo_district": "从化区",
+   "geo_township": "鳌头镇"
   },
   {
    "district": "从化",
@@ -984,7 +1150,9 @@
    "address": "城鳌大道西自编700号",
    "amap_type": "公司企业;农林牧渔基地;其它农林牧渔基地",
    "ok": true,
-   "photo": "d10-02.jpg"
+   "photo": "d10-02.jpg",
+   "geo_district": "从化区",
+   "geo_township": "鳌头镇"
   },
   {
    "district": "从化",
@@ -996,7 +1164,9 @@
    "address": "太平镇佛岗村广从南路2231号(神岗地铁站B口步行240米)",
    "amap_type": "购物服务;商场;购物中心",
    "ok": true,
-   "photo": "d10-03.jpg"
+   "photo": "d10-03.jpg",
+   "geo_district": "从化区",
+   "geo_township": "太平镇"
   },
   {
    "district": "从化",
@@ -1008,7 +1178,9 @@
    "address": "流溪香雪大街1396号",
    "amap_type": "生活服务;生活服务场所;生活服务场所",
    "ok": true,
-   "photo": "d10-04.jpg"
+   "photo": "d10-04.jpg",
+   "geo_district": "从化区",
+   "geo_township": "良口镇"
   },
   {
    "district": "从化",
@@ -1020,7 +1192,9 @@
    "address": "良口镇御泉大道49号",
    "amap_type": "风景名胜;公园广场;城市广场|生活服务;信息咨询中心;服务中心",
    "ok": true,
-   "photo": "d10-05.jpg"
+   "photo": "d10-05.jpg",
+   "geo_district": "从化区",
+   "geo_township": "良口镇"
   },
   {
    "district": "从化",
@@ -1032,7 +1206,9 @@
    "address": "流溪河林场三棵松工区三队19号",
    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
    "ok": true,
-   "photo": "d10-06.jpg"
+   "photo": "d10-06.jpg",
+   "geo_district": "从化区",
+   "geo_township": "良口镇"
   },
   {
    "district": "从化",
@@ -1044,7 +1220,9 @@
    "address": "东方夏湾拿花园西南门东南140米",
    "amap_type": "餐饮服务;冷饮店;冷饮店",
    "ok": true,
-   "photo": "d10-07.jpg"
+   "photo": "d10-07.jpg",
+   "geo_district": "从化区",
+   "geo_township": "太平镇"
   },
   {
    "district": "从化",
@@ -1056,7 +1234,9 @@
    "address": "山下江下路与山下上围径交叉口西200米",
    "amap_type": "体育休闲服务;休闲场所;休闲场所",
    "ok": true,
-   "photo": "d10-08.jpg"
+   "photo": "d10-08.jpg",
+   "geo_district": "从化区",
+   "geo_township": "江埔街道"
   },
   {
    "district": "从化",
@@ -1068,7 +1248,9 @@
    "address": "广州积木物语·斑斓露营基地北侧",
    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
    "ok": true,
-   "photo": "d10-09.jpg"
+   "photo": "d10-09.jpg",
+   "geo_district": "从化区",
+   "geo_township": "温泉镇"
   },
   {
    "district": "增城",
@@ -1080,7 +1262,9 @@
    "address": "增城区",
    "amap_type": "地名地址信息;自然地名;山",
    "ok": true,
-   "photo": "d11-01.jpg"
+   "photo": "d11-01.jpg",
+   "geo_district": "增城区",
+   "geo_township": "正果镇"
   },
   {
    "district": "增城",
@@ -1092,7 +1276,9 @@
    "address": "朱村街山角村墩岗东北路26号",
    "amap_type": "风景名胜;公园广场;公园",
    "ok": true,
-   "photo": "d11-02.jpg"
+   "photo": "d11-02.jpg",
+   "geo_district": "增城区",
+   "geo_township": "朱村街道"
   },
   {
    "district": "增城",
@@ -1104,7 +1290,9 @@
    "address": "喜露营榄云营地北侧80米",
    "amap_type": "餐饮服务;餐饮相关场所;餐饮相关",
    "ok": true,
-   "photo": "d11-03.jpg"
+   "photo": "d11-03.jpg",
+   "geo_district": "增城区",
+   "geo_township": "朱村街道"
   },
   {
    "district": "增城",
@@ -1116,7 +1304,9 @@
    "address": "派潭镇佳松岭村东升五巷4号",
    "amap_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
    "ok": true,
-   "photo": "d11-04.jpg"
+   "photo": "d11-04.jpg",
+   "geo_district": "增城区",
+   "geo_township": "派潭镇"
   },
   {
    "district": "增城",
@@ -1128,7 +1318,9 @@
    "address": "派潭镇东洞村新屋路十二巷3号",
    "amap_type": "住宿服务;宾馆酒店;宾馆酒店",
    "ok": true,
-   "photo": "d11-06.jpg"
+   "photo": "d11-06.jpg",
+   "geo_district": "增城区",
+   "geo_township": "派潭镇"
   },
   {
    "district": "增城",
@@ -1140,7 +1332,9 @@
    "address": "正果镇中西村低迳路111号",
    "amap_type": "体育休闲服务;度假疗养场所;度假村",
    "ok": true,
-   "photo": "d11-07.jpg"
+   "photo": "d11-07.jpg",
+   "geo_district": "增城区",
+   "geo_township": "正果镇"
   },
   {
    "district": "增城",
@@ -1152,7 +1346,9 @@
    "address": "荔城街群爱少塘路边春熙1号",
    "amap_type": "餐饮服务;茶艺馆;茶艺馆",
    "ok": true,
-   "photo": "d11-08.jpg"
+   "photo": "d11-08.jpg",
+   "geo_district": "增城区",
+   "geo_township": "荔城街道"
   },
   {
    "district": "增城",
@@ -1164,7 +1360,9 @@
    "address": "正果镇银场村马岭路43-3号",
    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
    "ok": true,
-   "photo": "d11-09.jpg"
+   "photo": "d11-09.jpg",
+   "geo_district": "增城区",
+   "geo_township": "正果镇"
   },
   {
    "district": "增城",
@@ -1176,7 +1374,9 @@
    "address": "增江街道五星村田心路100号",
    "amap_type": "餐饮服务;外国餐厅;法式菜品餐厅",
    "ok": true,
-   "photo": "d11-10.jpg"
+   "photo": "d11-10.jpg",
+   "geo_district": "增城区",
+   "geo_township": "增江街道"
   },
   {
    "district": "增城",
@@ -1188,7 +1388,9 @@
    "address": "派潭镇密石村徐屋路1号",
    "amap_type": "住宿服务;住宿服务相关;住宿服务相关",
    "ok": true,
-   "photo": "d11-11.jpg"
+   "photo": "d11-11.jpg",
+   "geo_district": "增城区",
+   "geo_township": "派潭镇"
   },
   {
    "district": "增城",
@@ -1201,7 +1403,9 @@
    "amap_type": "",
    "ok": true,
    "note": "原图未区分门店；高德有两家（植物园店在天河、正果店在增城），按所属城区取正果店",
-   "photo": "d11-05.jpg"
+   "photo": "d11-05.jpg",
+   "geo_district": "增城区",
+   "geo_township": "正果镇"
   }
  ],
  "fail": [
